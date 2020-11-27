@@ -7,6 +7,7 @@ var app = new Vue({
         altText:"A pair of socks",
         link:"https://www.vuemastery.com/images/challenges/vmSocks-green-onWhite.jpg",
         inventory:0,
+        inStock:false,
         onSale:true,
         details:["80% cotton","20% polyester","Gender-netural"],
         variants:[
@@ -22,7 +23,7 @@ var app = new Vue({
             }
         ],
         sizes:["XS","S","M","L"],
-        cart:0,
+        cart:0
     },
     methods: {
         addToCart:function (){
